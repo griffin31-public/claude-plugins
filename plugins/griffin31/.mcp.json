@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "griffin31": {
+      "type": "http",
+      "headers": {
+        "Authorization": "Bearer ${user_config.token}"
+      },
+      "url": "https://api.griffin31.ai/mcp"
+    }
+  }
+}

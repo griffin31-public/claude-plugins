@@ -1,0 +1,36 @@
+{
+  "name": "griffin31",
+  "displayName": "Griffin31",
+  "version": "0.3.0",
+  "description": "Work a Griffin31 account from Claude Code: pick where to start, plan what to fix, and remediate it in the Microsoft portals with evidence.",
+  "author": {
+    "name": "Griffin31",
+    "email": "support@griffin31.ai",
+    "url": "https://www.griffin31.com"
+  },
+  "homepage": "https://www.griffin31.com",
+  "repository": "https://github.com/griffin31-public/claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "microsoft-365",
+    "security",
+    "entra-id",
+    "intune",
+    "defender",
+    "posture-management",
+    "remediation"
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://kb.griffin31.com",
+  "supportUrl": "https://www.griffin31.com/contact/",
+  "privacyPolicyUrl": "https://www.griffin31.com/privacy-policy/",
+  "userConfig": {
+    "token": {
+      "type": "string",
+      "title": "Service account token",
+      "description": "The Griffin31 service account token for the customer account you are working on (starts with g31sa_).",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}
