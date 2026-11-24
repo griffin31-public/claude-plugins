@@ -21,7 +21,11 @@ claude plugin marketplace add griffin31-public/claude-plugins
 claude plugin install griffin31@griffin31-plugins
 ```
 
-Then set **Service account token** in the plugin's settings. Create the token in the Griffin31 dashboard, under Service accounts. It starts with `g31sa_`.
+Then give the plugin your service account token. Create it in the Griffin31 dashboard, under Service accounts (it starts with `g31sa_`), and set it in Claude Code with:
+
+```text
+/plugin configure griffin31@griffin31-plugins
+```
 
 ## Support
 
