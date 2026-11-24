@@ -4,7 +4,7 @@ Claude Code plugins from [Griffin31](https://www.griffin31.com), Microsoft 365 s
 
 | Plugin | What it does |
 |---|---|
-| [griffin31](plugins/griffin31) | Get started on a Griffin31 account, triage open recommendations and remediate them in the Microsoft portals with evidence. |
+| [griffin31](plugins/griffin31) | Get started on a Griffin31 account, plan what to fix, and remediate it in the Microsoft portals with evidence. |
 
 ## Install
 
