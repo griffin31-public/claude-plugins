@@ -1,7 +1,7 @@
 {
   "name": "griffin31",
   "displayName": "Griffin31",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Work a Griffin31 account from Claude Code: pick where to start, plan what to fix, and remediate it in the Microsoft portals with evidence.",
   "author": {
     "name": "Griffin31",
