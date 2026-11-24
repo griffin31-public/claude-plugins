@@ -2,7 +2,6 @@
 name: get-started
 description: Open a Griffin31 account, show where it stands and plan what to fix. Use when the engineer starts work on a tenant, or asks where to begin, what to fix first, for the open issues, a status, an overview or a remediation plan.
 argument-hint: "[fix_first | quick_wins | needs_action | a story or threat key | recommendation keys]"
-allowed-tools: mcp__plugin_griffin31_griffin31__*
 ---
 
 # Start work on a Griffin31 account
