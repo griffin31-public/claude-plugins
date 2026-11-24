@@ -1,0 +1,19 @@
+{
+  "name": "griffin31-plugins",
+  "owner": {
+    "name": "Griffin31",
+    "email": "info@griffin31.ai",
+    "url": "https://www.griffin31.com"
+  },
+  "metadata": {
+    "description": "Griffin31 plugins for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "griffin31",
+      "source": "./plugins/griffin31",
+      "category": "security",
+      "tags": ["microsoft-365", "security", "posture-management"]
+    }
+  ]
+}
