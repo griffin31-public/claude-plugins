@@ -27,6 +27,23 @@ Then give the plugin your service account token. Create it in the Griffin31 dash
 /plugin configure griffin31@griffin31-plugins
 ```
 
+## Try it
+
+- "Where does this tenant stand, and what should I fix first?"
+- "Show me the quick wins."
+- "Plan the open recommendations in the story we need to close this quarter."
+- "Fix MS-ENT-31 and save the evidence."
+
+You can also start a skill directly with `/griffin31:get-started` or `/griffin31:remediate MS-ENT-31`.
+
+## Troubleshooting
+
+- **Griffin31 tools fail with an authorization error:** the token is missing, wrong or revoked. Create a new one in the dashboard under Service accounts and set it again with `/plugin configure griffin31@griffin31-plugins`, then restart Claude Code.
+- **No Griffin31 tools at all:** run `/mcp` and check that the `griffin31` server is connected.
+- **Some recommendations show as blocked or missing:** Griffin31 can't assess what it lacks permissions or licences for. The start of every session says which; the dashboard shows how to grant them.
+- **A fix doesn't show as passed:** results change only with the next scan. Check the last scan time in the dashboard.
+- **Remediate stops before a change:** the browser is signed in to a different tenant than the Griffin31 account, or the portal doesn't match the steps. Sign in to the right tenant, or tell support what differs.
+
 ## Support
 
 - [Help Center](https://kb.griffin31.com) · [Trust Center](https://kb.griffin31.com/trust-center/) · [Privacy](https://www.griffin31.com/privacy-policy/)
